@@ -10,11 +10,11 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 2. Data preparation
 
 		1)  All imaging data should be in Nifty type
-		2)  Two imaging data are necessary: segmented mask (our example: reg_mni_ROI.nii) and base image (reg_mni_n4_ss_norm_reg_rs_T2.nii).
-		3)  Above two imaging data needs to be co-registered before feature extraction.
-		4)  For CE-T1w/T1w/T2w/FLAIR image, the base image needs to be white-striped before feature extraction.
+		2)  Two imaging data are necessary: segmented mask (our example: reg_mni_ROI.nii) and base image (reg_mni_n4_ss_norm_reg_rs_T2.nii)
+		3)  Above two imaging data needs to be co-registered before feature extraction
+		4)  For CE-T1w/T1w/T2w/FLAIR image, the base image needs to be white-striped before feature extraction
 		5)  Data structure: needs to be given like below		
-		6)  In the root path, only patients’ folders are allowed. Any other file or folder will cause an error. 
+		6)  In the root path, only patients’ folders are allowed. Any other file or folder will cause an error
 
 3. Code preparation
 
@@ -33,21 +33,21 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 		7)  Set the rootpath (above 2-4) and pathname
 		8)  Put the ROI mask and base image name
 		9)  Run 
-		10) When it properly runs, subject 1, subject 2 .. appears in the background.
+		10) When it properly runs, subject 1, subject 2 .. appears in the background
 
 
 ## Analysis Pipeline (Analysis-Pipeline-Core Signaling Pathway.R)
 
-1.	The R codes are embedded.
+1.	The R codes are embedded
 
 2.	The codes have 4 parts 
 
 		1)  Line 5-129: Feature selection via Student's t-test with false discovery rate correction
 		2)  Line 134-233: Feature selection via LASSO penalization and calculate AUC for each genetic mutation
-		3)  Line 234-329: Feature selection via Random Forest and find top 5 important features.
+		3)  Line 234-329: Feature selection via Random Forest and find top 5 important features
 		4)  Line 330- : Calculate diagnostic performance
 		
-3.	The data needs to prepared as csv format.
+3.	The data needs to prepared as csv format
 
 4.	Feature data: columns – features, rows- patients 
 
