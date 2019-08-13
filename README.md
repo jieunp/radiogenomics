@@ -36,7 +36,7 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 		10) When it properly runs, subject 1, subject 2 .. appears in the background.
 
 
-## Analysis Pipeline (Analysis-Pipeline-Core Signaling Pathway.R
+## Analysis Pipeline (Analysis-Pipeline-Core Signaling Pathway.R)
 
 1.	The R codes are embedded.
 
