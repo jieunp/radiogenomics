@@ -42,10 +42,10 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 
 2.	The codes have 4 parts 
 
-		1)	Line 5-129: Feature selection via Student's t-test with false discovery rate correction
-		2)	Line 134-233: Feature selection via LASSO penalization and calculate AUC for each genetic mutation
-		3)	Line 234-329: Feature selection via Random Forest and find top 5 important features.
-		4)	Line 330- : Calculate diagnostic performance
+		1)  Line 5-129: Feature selection via Student's t-test with false discovery rate correction
+		2)  Line 134-233: Feature selection via LASSO penalization and calculate AUC for each genetic mutation
+		3)  Line 234-329: Feature selection via Random Forest and find top 5 important features.
+		4)  Line 330- : Calculate diagnostic performance
 		
 3.	The data needs to prepared as csv format.
 
