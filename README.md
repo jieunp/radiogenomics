@@ -13,7 +13,7 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 		2)  Two imaging data are necessary: segmented mask (our example: reg_mni_ROI.nii) and base image (reg_mni_n4_ss_norm_reg_rs_T2.nii)
 		3)  Above two imaging data needs to be co-registered before feature extraction
 		4)  For CE-T1w/T1w/T2w/FLAIR image, the base image needs to be white-striped before feature extraction
-		5)  Data structure: needs to be given like Figure 1					
+		5)  Data structure: needs to be given like **Figure 1**					
 		6)  In the root path, only patients’ folders are allowed. Any other file or folder will cause an error
 
 3. Code preparation
@@ -51,7 +51,7 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 
 4.	Feature data: columns – features, rows- patients 
 
-5.	Reference data: Name of columns: genetic mutation coded as 1 (positive) or 0 (negative) and name of rows: patients (Figure 2)
+5.	Reference data: Name of columns: genetic mutation coded as 1 (positive) or 0 (negative) and name of rows: patients (**Figure 2**)
 
 ### Figure 1
 
