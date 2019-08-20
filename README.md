@@ -54,7 +54,9 @@ Prediction of Core Signaling Pathway using Diffusion- and Perfusion-based MRI Ra
 5.	Reference data: Name of columns: genetic mutation coded as 1 (positive) or 0 (negative) and name of rows: patients (Figure 2)
 
 ### Figure 1
+
 ![gitfig](https://user-images.githubusercontent.com/26832081/63306404-56dc5f80-c325-11e9-942b-27d71ac99de2.png)
 
 ### Figure 2
+
 ![gitfig2](https://user-images.githubusercontent.com/26832081/63306405-5774f600-c325-11e9-8e50-3d0cdc370ff7.jpg)
